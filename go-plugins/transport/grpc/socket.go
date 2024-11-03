@@ -2,7 +2,7 @@ package grpc
 
 import (
 	"github.com/micro/go-micro/transport"
-	pb "gitlab.wallstcn.com/micro/go-plugins/transport/grpc/proto"
+	pb "gitlab.itingluo.com/micro/go-plugins/transport/grpc/proto"
 	"google.golang.org/grpc"
 )
 

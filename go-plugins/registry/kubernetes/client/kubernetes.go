@@ -1,6 +1,6 @@
 package client
 
-import "gitlab.wallstcn.com/micro/go-plugins/registry/kubernetes/client/watch"
+import "gitlab.itingluo.com/micro/go-plugins/registry/kubernetes/client/watch"
 
 // Kubernetes ...
 type Kubernetes interface {

@@ -5,7 +5,7 @@ import (
 	"runtime/debug"
 
 	"github.com/micro/go-micro/transport"
-	pb "gitlab.wallstcn.com/micro/go-plugins/transport/grpc/proto"
+	pb "gitlab.itingluo.com/micro/go-plugins/transport/grpc/proto"
 )
 
 // microTransport satisfies the pb.TransportServer inteface

@@ -14,7 +14,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	pb "gitlab.wallstcn.com/micro/go-plugins/transport/grpc/proto"
+	pb "gitlab.itingluo.com/micro/go-plugins/transport/grpc/proto"
 
 	"golang.org/x/net/context"
 )

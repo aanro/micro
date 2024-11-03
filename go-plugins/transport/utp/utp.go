@@ -7,9 +7,9 @@ import (
 	"net"
 	"time"
 
+	utp "github.com/anacrolix/go-libutp"
 	"github.com/micro/go-micro/cmd"
 	"github.com/micro/go-micro/transport"
-	utp "github.com/wallstreetcn/go-libutp"
 )
 
 type utpTransport struct {

@@ -9,8 +9,8 @@ import (
 	"os"
 	"path"
 
-	"gitlab.wallstcn.com/micro/go-plugins/registry/kubernetes/client/api"
-	"gitlab.wallstcn.com/micro/go-plugins/registry/kubernetes/client/watch"
+	"gitlab.itingluo.com/micro/go-plugins/registry/kubernetes/client/api"
+	"gitlab.itingluo.com/micro/go-plugins/registry/kubernetes/client/watch"
 )
 
 var (

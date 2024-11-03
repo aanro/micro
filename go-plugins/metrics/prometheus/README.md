@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"github.com/micro/go-os/metrics"
-	"gitlab.wallstcn.com/micro/go-plugins/metrics/prometheus"
+	"gitlab.itingluo.com/micro/go-plugins/metrics/prometheus"
 )
 
 func main() {

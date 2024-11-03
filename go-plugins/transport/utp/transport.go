@@ -7,11 +7,11 @@ import (
 	"net"
 
 	// "github.com/anacrolix/utp"
+	utp "github.com/anacrolix/go-libutp"
 	"github.com/micro/go-micro/transport"
 	maddr "github.com/micro/misc/lib/addr"
 	mnet "github.com/micro/misc/lib/net"
 	mls "github.com/micro/misc/lib/tls"
-	utp "github.com/wallstreetcn/go-libutp"
 )
 
 func (u *utpTransport) Dial(addr string, opts ...transport.DialOption) (transport.Client, error) {

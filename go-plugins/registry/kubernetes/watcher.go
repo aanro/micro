@@ -8,8 +8,8 @@ import (
 	"sync"
 
 	"github.com/micro/go-micro/registry"
-	"gitlab.wallstcn.com/micro/go-plugins/registry/kubernetes/client"
-	"gitlab.wallstcn.com/micro/go-plugins/registry/kubernetes/client/watch"
+	"gitlab.itingluo.com/micro/go-plugins/registry/kubernetes/client"
+	"gitlab.itingluo.com/micro/go-plugins/registry/kubernetes/client/watch"
 )
 
 type k8sWatcher struct {
