@@ -4,8 +4,8 @@ import (
 	"log"
 	"runtime/debug"
 
+	pb "github.com/aanro/micro/go-plugins/transport/grpc/proto"
 	"github.com/micro/go-micro/transport"
-	pb "gitlab.itingluo.com/micro/go-plugins/transport/grpc/proto"
 )
 
 // microTransport satisfies the pb.TransportServer inteface

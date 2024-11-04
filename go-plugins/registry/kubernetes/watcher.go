@@ -7,9 +7,9 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/aanro/micro/go-plugins/registry/kubernetes/client"
+	"github.com/aanro/micro/go-plugins/registry/kubernetes/client/watch"
 	"github.com/micro/go-micro/registry"
-	"gitlab.itingluo.com/micro/go-plugins/registry/kubernetes/client"
-	"gitlab.itingluo.com/micro/go-plugins/registry/kubernetes/client/watch"
 )
 
 type k8sWatcher struct {

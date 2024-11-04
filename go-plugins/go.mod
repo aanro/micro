@@ -1,4 +1,4 @@
-module gitlab.itingluo.com/micro/go-plugins
+module github.com/aanro/micro/go-plugins
 
 go 1.23.2
 
@@ -83,9 +83,9 @@ replace gitlab.itingluo.com/backend/ivankastd v0.0.0 => ../ivankastd
 
 replace gitlab.itingluo.com/backend/ivankaprotocol v0.0.0 => ../ivankaprotocol
 
-replace gitlab.itingluo.com/micro/go-plugins v0.0.0 => ../micro/go-plugins
-
-replace gitlab.itingluo.com/micro/istio-plugins v0.0.0 => ../micro/istio-plugins
+//replace gitlab.itingluo.com/micro/go-plugins v0.0.0 => ../micro/go-plugins
+//
+//replace gitlab.itingluo.com/micro/istio-plugins v0.0.0 => ../micro/istio-plugins
 
 replace github.com/micro/go-micro v1.18.0 => github.com/micro/go-micro v0.1.0
 
